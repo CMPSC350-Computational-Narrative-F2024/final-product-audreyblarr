@@ -2,16 +2,17 @@
 
 ## Provide a tentative title for the work.
 
-TODO: Titles are the most fun
+Computational Flipbook
 
 ## Description
 
-TODO: Provide a 3-5 sentence description of your progress to this point. What has been
-difficult? What has been enjoyable? Has your concept changed or shifted in any meaningful way?
+Regretably, I haven't made much progress in my final product work thus far considering I've been working on other finals, especially my senior composition. I have my general concept solidified of creating a flipbook and I've determined to have two products of my final: A physical flipbook copy, and an online slideshow flipbook version. My next step, arguably the most difficult task in this product, will be selecting an LLM that can most efficiently create my flipbook without the implementation being difficult or even costly. The rest of the project development will be straightforward, where I simply implement the LLM usage to cater to my specific needs and desires for output, then configure a way for each image to be saved so they can be flipped through online, as well as printed.
 
 ## Peer Feedback
 
-TODO: Identify at least 3 questions to pose to an in-class peer. 
+1. Which prompts or projects that we've completed contain the skill set or implementation you will find most helpful with this project?
+2. What will the final product look like in its final form?
+3. What LLM does your final product feature? Why are you using this LLM in specific?
 
 ### Unstructured peer feedback
 
@@ -20,4 +21,6 @@ this repository (briefly) with this person for them to replace this paragraph wi
 
 ## Persisting challenges
 
-TODO: Highlight challenges which continue to hamper progress.
+1. Procrastination!!!
+2. Choosing an LLM that is both free of cost and provides quality output
+
