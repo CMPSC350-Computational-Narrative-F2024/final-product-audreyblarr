@@ -16,8 +16,7 @@ Regretably, I haven't made much progress in my final product work thus far consi
 
 ### Unstructured peer feedback
 
-TODO: Dedicate this space to a summative comment from a peer. This may require you to share
-this repository (briefly) with this person for them to replace this paragraph with the comment.
+Look into different prompting techinques to get it kicked off beside chain prompting. The idea seems very instereting having to tell a story through picture, one concern that rises from using this LLMs so far is the cohrence of images being generated and how well they are fitted in a given theme provide, research in the area could be insightful. Also look into how to present the generated images in the PDF to make it catchin gand appealing to the reader, this process is usally hard but I think that it could make the project stand out.
 
 ## Persisting challenges
 
