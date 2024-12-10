@@ -57,12 +57,27 @@ def generate_image_edit(name, prompt):
 #save_image_as_png(og_image, "image1")
 #convert_to_pdf(og_image, "image1")
 
-prompt2 = "Edit the image to portray the same exact cat, taking a running step forward from its previous standing position. The cat should be in motion, with one paw lifted off the ground. The rest of the image, including the background, should remain exactly the same."
+prompt2 = "Edit the image to portray the same cat, preparing to run forward from its previous standing position. The cat should be in motion, with one paw lifted off the ground, ready to propel forward and off the ground. The rest of the image, including the background, should remain exactly the same."
 image_2 = generate_image_edit("image1", prompt2)
 save_image_as_png(image_2, "image2")
 convert_to_pdf(image_2, "image2")
 
-prompt3 = "Edit the image to portray the same exact cat, jumping from the previous standing position. The cat should appear in motion, with both front paws in the air. The rest of the image, including the background, should remain exactly the same."
+prompt3 = "Edit the image to portray the same cat, mid-run from the previous standing position. The cat should be in motion, mid-air after propelling forward. The rest of the image, including the background, should remain exactly the same."
 image_3 = generate_image_edit("image1", prompt3)
 save_image_as_png(image_3, "image3")
 convert_to_pdf(image_3, "image3")
+
+prompt4 = "Edit the image to portray the same cat, landing its front paws after a running leap into the air. Its back paws should remain in the air. The rest of the image, including the background, should remain exactly the same."
+image_4 = generate_image_edit("image1", prompt4)
+save_image_as_png(image_4, "image4")
+convert_to_pdf(image_4, "image4")
+
+prompt5 = "Edit the image to portray the same cat, landing all four paws after a leap forward. All paws should be on the ground, but positioned so the cat can continue running. The rest of the image, including the background, should remain exactly the same."
+image_5 = generate_image_edit("image1", prompt5)
+save_image_as_png(image_5, "image5")
+convert_to_pdf(image_5, "image5")
+
+prompt6 = "Edit the image to portray the same cat, preparing to continue running forward after landing. The cat should be in motion, with one paw lifted off the ground, ready to propel forward and off the ground. The rest of the image, including the background, should remain exactly the same."
+image_6 = generate_image_edit("image1", prompt6)
+save_image_as_png(image_6, "image6")
+convert_to_pdf(image_6, "image6")
