@@ -6,7 +6,7 @@ Clementine the Cat's Flipbook Adventures
 
 ## Summary
 
-My work involves the portrayal of an orange cat running, leaping, and interacting with a butterfly. An original picture of a standing orange cat is generated, then edited 29 times to add slight movements with each additional image, so the images can then be compiled into a flipbook that brings the orange cat to life.
+My work involves the portrayal of an orange cat running and leaping through a field of flowers. An original picture of a standing orange cat is generated, then edited 29 times to add slight movements with each additional image, so the images can then be compiled into a flipbook that brings the orange cat to life.
 
 ## Reference works
 
@@ -33,4 +33,4 @@ The feedback from my peers allowed me to further research and inspect how to use
 
 ## Contextualizing
 
-My work fits my understanding of the course, as I had to use trial and error, as well as many different prompting techniques, to ensure the images I generated were as accurate as possible. Through altering my prompt and seeing how it impacted the results, I was able to find a prompt structure that worked best for me. I was also able to generate images that together tell a narrative story. The images portray the story of an orange cat named Clementine that runs and jumps in a field of flowers, meets a butterfly, then begins to interact with the butterfly. My final take-away from participating in this project was that even the smallest edits to a prompt can create an entirely new generation, and even running the same prompt twice creates different images. It's important to understand exactly what keywords trigger my intended results, and how to incorporate those keywords into many different types of prompts, all intending to create something different that contributes to the overall narrative.
+My work fits my understanding of the course, as I had to use trial and error, as well as many different prompting techniques, to ensure the images I generated were as accurate as possible. Through altering my prompt and seeing how it impacted the results, I was able to find a prompt structure that worked best for me. I was also able to generate images that together tell a narrative story. The images portray the story of an orange cat named Clementine that runs and jumps in a field of flowers. My final take-away from participating in this project was that even the smallest edits to a prompt can create an entirely new generation, and even running the same prompt twice creates different images. It's important to understand exactly what keywords trigger my intended results, and how to incorporate those keywords into many different types of prompts, all intending to create something different that contributes to the overall narrative.
