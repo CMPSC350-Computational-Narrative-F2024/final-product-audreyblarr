@@ -1,11 +1,11 @@
 import os
-import openai
-from dotenv import dotenv_values
-import requests
-from PIL import Image
+import openai # type: ignore
+from dotenv import dotenv_values # type: ignore
+import requests # type: ignore
+from PIL import Image # type: ignore
 from io import BytesIO
-import img2pdf
-from fpdf import FPDF
+import img2pdf # type: ignore
+from fpdf import FPDF # type: ignore
 
 
 # Load environment variables
