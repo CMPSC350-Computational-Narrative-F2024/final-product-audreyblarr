@@ -45,7 +45,8 @@ def generate_image_edit(name, prompt):
             image=image_file,
             mask=open("transparent.png", "rb"),
             prompt=prompt,
-            size="1024x1024"
+            size="1024x1024",
+            n = 10
         )
     image_url = response.data[0].url
     image_response = requests.get(image_url)
@@ -57,50 +58,58 @@ def generate_image_edit(name, prompt):
 #save_image_as_png(og_image, "image1")
 #convert_to_pdf(og_image, "image1")
 
-prompt2 = "Edit the image to portray the same cat. The cat should have its body low to the ground, with all legs bent and paws firmly planted, preparing to pounce."
-image_2 = generate_image_edit("image1", prompt2)
-save_image_as_png(image_2, "image2")
-convert_to_pdf(image_2, "image2")
+# prompt2 = "Edit the image to portray the same cat. The cat should have its body low to the ground, with all legs bent and paws firmly planted, preparing to pounce."
+# image_2 = generate_image_edit("image1", prompt2)
+# save_image_as_png(image_2, "image2")
+# convert_to_pdf(image_2, "image2")
 
-prompt3 = "Edit the image to portray the same cat. The cat should have its body low to the ground, and its weight shifted onto its bent back legs."
-image_3 = generate_image_edit("image1", prompt3)
-save_image_as_png(image_3, "image3")
-convert_to_pdf(image_3, "image3")
+# prompt3 = "Edit the image to portray the same cat. The cat should have its body low to the ground, and its weight shifted onto its bent back legs."
+# image_3 = generate_image_edit("image1", prompt3)
+# save_image_as_png(image_3, "image3")
+# convert_to_pdf(image_3, "image3")
 
-prompt4 = "Edit the image to portray the same cat. The cat should have its right front paw slightly lifted off the ground, ready to leap into the air. The rest of its paws should remain planted on the ground."
-image_4 = generate_image_edit("image1", prompt4)
-save_image_as_png(image_4, "image4")
-convert_to_pdf(image_4, "image4")
+# prompt4 = "Edit the image to portray the same cat. The cat should have its right front paw slightly lifted off the ground, ready to leap into the air. The rest of its paws should remain planted on the ground."
+# image_4 = generate_image_edit("image1", prompt4)
+# save_image_as_png(image_4, "image4")
+# convert_to_pdf(image_4, "image4")
 
-prompt5 = "Edit the image to portray the same cat. The cat should extend its right front paw straight forward, and start to lift its left front paw off the ground, ready to leap into the air. Its back paws should remain planted on the ground."
-image_5 = generate_image_edit("image1", prompt5)
-save_image_as_png(image_5, "image5")
-convert_to_pdf(image_5, "image5")
+# prompt5 = "Edit the image to portray the same cat. The cat should be ready to leap forward, with its front paws in the air and its back paws planted into the ground."
+# image_5 = generate_image_edit("image1", prompt5)
+# save_image_as_png(image_5, "image5")
+# convert_to_pdf(image_5, "image5")
 
-prompt6 = "Edit the image to portray the same cat. The cat should begin to push off the ground with its hind legs, just starting to leap forward, with both front paws off the ground. "
-image_6 = generate_image_edit("image1", prompt6)
-save_image_as_png(image_6, "image6")
-convert_to_pdf(image_6, "image6")
+# prompt6 = "Edit the image to portray the same cat. The cat should begin to push off the ground with its hind legs, just starting to leap forward, with both front paws off the ground. "
+# image_6 = generate_image_edit("image1", prompt6)
+# save_image_as_png(image_6, "image6")
+# convert_to_pdf(image_6, "image6")
 
-prompt7 = "Edit the image to portray the same cat. The cat should be completely mid-air, with all its legs off the ground and extended straight out."
-image_7 = generate_image_edit("image1", prompt7)
-save_image_as_png(image_7, "image7")
-convert_to_pdf(image_7, "image7")
+# prompt7 = "Edit the image to portray the same cat. The cat should be completely mid-air, with all its legs off the ground and extended straight out."
+# image_7 = generate_image_edit("image1", prompt7)
+# save_image_as_png(image_7, "image7")
+# convert_to_pdf(image_7, "image7")
 
 #prompt8 = "Edit the image to portray the same cat. The cat should be landing from its leap on its front right paw, with its left front paw slightly off the ground and its back legs still extended off the ground. "
 #image_8 = generate_image_edit("image1", prompt8)
 #save_image_as_png(image_8, "image8")
 #convert_to_pdf(image_8, "image8")
 
-prompt9 = "Edit the image to portray the same cat. The cat should be landing its back legs on the ground, with its front right paw slightly off the ground and its front left paw still planted, ready to leap again. "
-image_9 = generate_image_edit("image1", prompt9)
-save_image_as_png(image_9, "image9")
-convert_to_pdf(image_9, "image9")
+# prompt9 = "Edit the image to portray the same cat. The cat should be landing its back legs on the ground, with its front right paw slightly off the ground and its front left paw still planted, ready to leap again. "
+# image_9 = generate_image_edit("image1", prompt9)
+# save_image_as_png(image_9, "image9")
+# convert_to_pdf(image_9, "image9")
 
-prompt10 = "Edit the image to portray the same cat. The cat should have its front paws off the ground, ready to spring off its hind legs."
-image_10 = generate_image_edit("image1", prompt10)
-save_image_as_png(image_10, "image10")
-convert_to_pdf(image_10, "image10")
+# prompt10 = "Edit the image to portray the same cat. The cat should have its front paws up and off the ground, with all its weight on its hind legs."
+# image_10 = generate_image_edit("image1", prompt10)
+# save_image_as_png(image_10, "image10")
+# convert_to_pdf(image_10, "image10")
+
+promptchunk1 = "Edit the image to create ten different images. Each image must capture a stage of the cat jumping, beginning with its weight shifting onto its hind legs, then lifting its front paws off the ground, then leaping in the air, then landing back down. Each image should chronologically portray different snapshots of this leap."
+chunk1 = generate_image_edit("image1", promptchunk1)
+for image in chunk1:
+    count = 1
+    save_image_as_png(image, f"image{count}")
+    convert_to_pdf(image, f"image{count}")
+    count += 1
 
 # prompt11 = "Edit the image to portray the same cat. "
 # image_11 = generate_image_edit("image1", prompt11)
